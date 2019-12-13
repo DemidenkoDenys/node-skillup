@@ -1,0 +1,49 @@
+Handler/Handler/bin/
+Handler/Handler/obj/
+
+# Angular Section
+# compiled output
+/NgScheduleClient/dist
+/NgScheduleClient/tmp
+/NgScheduleClient/out-tsc
+# Only exists if Bazel was run
+/NgScheduleClient/bazel-out
+
+# dependencies
+/NgScheduleClient/node_modules
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# IDEs and editors
+/NgScheduleClient/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/NgScheduleClient/.sass-cache
+/NgScheduleClient/connect.lock
+/NgScheduleClient/coverage
+/NgScheduleClient/libpeerconnection.log
+/NgScheduleClient/_env.json
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
