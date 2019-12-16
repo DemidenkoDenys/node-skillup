@@ -3,6 +3,7 @@
     "start": "tsc --target es6 ./src/index.ts && nodemon ./src/index.js"
   },
   "dependencies": {
+    "@nestjs/core": "^6.10.11",
     "@types/bluebird": "^3.5.29",
     "@types/node": "^12.12.17",
     "@types/sequelize": "^4.28.8",
